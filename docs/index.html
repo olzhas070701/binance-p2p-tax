@@ -3,26 +3,40 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Binance P2P — учёт</title>
+  <title>Binance P2P — прибыль и налог</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 24px; }
-    .card { border: 1px solid #ddd; border-radius: 12px; padding: 16px; margin: 12px 0; }
-    .big { font-size: 28px; font-weight: bold; }
-    .muted { color: #666; }
+    body{font-family:-apple-system,system-ui,Arial;margin:24px}
+    .card{border:1px solid #ddd;border-radius:14px;padding:16px;margin:12px 0}
+    .big{font-size:30px;font-weight:800}
+    .muted{color:#666}
+    a{word-break:break-all}
   </style>
 </head>
 <body>
 
-<h2>Binance P2P — учёт</h2>
+    <h2>Binance P2P — учёт</h2>
+    <div class="muted">Обновлено: 2026-01-22 18:33:17</div>
 
-<div class="card">
-  <div class="big">Нет данных</div>
-  <div class="muted">
-    Загрузи CSV из Binance P2P в папку <b>data/p2p</b>,  
-    и здесь автоматически появится прибыль и налог.
-  </div>
-</div>
+    <div class="card">
+      <div class="muted">Месяц</div>
+      <div class="big">2026-01</div>
+      <div class="muted">Сделок: 87</div>
+    </div>
 
+    <div class="card">
+      <div class="muted">Чистая прибыль за месяц</div>
+      <div class="big">-89 801 ₸</div>
+    </div>
+
+    <div class="card">
+      <div class="muted">Оценочный налог (общий режим, ориентир 10%)</div>
+      <div class="big">-8 980 ₸</div>
+    </div>
+
+    <div class="card">
+      <div class="muted">Сделки за месяц (CSV)</div>
+      <div><a href="./month_trades.csv">Открыть month_trades.csv</a></div>
+    </div>
+    
 </body>
 </html>
-
