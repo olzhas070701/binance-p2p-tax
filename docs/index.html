@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Binance P2P — прибыль и налог</title>
+  <title>Binance P2P — учёт ИП (общий режим)</title>
   <style>
     body{font-family:-apple-system,system-ui,Arial;margin:24px}
     .card{border:1px solid #ddd;border-radius:14px;padding:16px;margin:12px 0}
@@ -14,28 +14,45 @@
 </head>
 <body>
 
-    <h2>Binance P2P — учёт</h2>
-    <div class="muted">Обновлено: 2026-01-22 18:33:17</div>
+    <h2>Binance P2P — учёт (ИП, общий режим)</h2>
+    <div class="muted">Обновлено: 2026-01-22 19:02:48</div>
 
     <div class="card">
-      <div class="muted">Месяц</div>
+      <div class="muted">Период</div>
       <div class="big">2026-01</div>
       <div class="muted">Сделок: 87</div>
     </div>
 
     <div class="card">
-      <div class="muted">Чистая прибыль за месяц</div>
-      <div class="big">-89 801 ₸</div>
+      <div class="muted">BUY сумма / SELL сумма</div>
+      <div class="big">611 481 ₸ / 521 680 ₸</div>
+      <div class="muted">Разница (SELL−BUY): -89 801 ₸</div>
     </div>
 
     <div class="card">
-      <div class="muted">Оценочный налог (общий режим, ориентир 10%)</div>
-      <div class="big">-8 980 ₸</div>
+      <div class="muted">Прибыль (налоговая база)</div>
+      <div class="big">0 ₸</div>
+      <div class="muted">Если SELL ≤ BUY, прибыль = 0, а разница уходит в «Незакрытый остаток».</div>
+    </div>
+
+    <div class="card">
+      <div class="muted">Незакрытый остаток (оборот не закрыт)</div>
+      <div class="big">89 801 ₸</div>
+    </div>
+
+    <div class="card">
+      <div class="muted">ИПН к уплате (ориентир 10% от прибыли)</div>
+      <div class="big">0 ₸</div>
     </div>
 
     <div class="card">
       <div class="muted">Сделки за месяц (CSV)</div>
       <div><a href="./month_trades.csv">Открыть month_trades.csv</a></div>
+    </div>
+
+    <div class="card">
+      <div class="muted">Файлы данных</div>
+      <div>part-00000-f2092699-91a7-42ab-8090-9e25064eb3a2-c000.csv</div>
     </div>
     
 </body>
