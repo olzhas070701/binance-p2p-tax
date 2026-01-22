@@ -11,7 +11,7 @@ ASSUMED_TAX_RATE = 0.10  # ориентир 10% от прибыли
 CANDS = {
     "order_id": ["Order Number", "Order No", "OrderID", "Order Id"],
     "time": ["Create Time", "Created Time", "Time", "Date"],
-    "side": ["Side", "Type"],
+    "side": ["Side", "Type", "Order Type"],
     "total": ["Total Price", "Total", "Total Amount", "Total(Fiat)", "Total Fiat"],
     "status": ["Status", "Order Status"],
 }
